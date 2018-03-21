@@ -13,14 +13,14 @@ body.landing {
 }
 
 .section2 {
-    background-color: #000;
+    background-color: #3B3B4F;
     width: 100%;
     color: #333;
 
 }
 
 .footer {
-   background-color: #000;
+   background-color: #3B3B4F;
     width: 100%;
     text-align:left;
     padding-right: 15px;
@@ -31,7 +31,7 @@ margin-left: auto;
 }
 
 body.page {
-  background-color: #000;
+  background-color: #3B3B4F;
 }
 
 h1 {
@@ -172,7 +172,7 @@ a:link, a:visited, a:hover, a:active {
 
 .navbar-inverse {
     margin: 0;
-    background-color: #000;
+    background-color: #3B3B4F;
 }
 
 .navbar-fixed-top {
@@ -180,8 +180,8 @@ a:link, a:visited, a:hover, a:active {
   border-width: 0 0 1px;
 }
 .navbar-inverse {
-  background-color: #000;
-  border-color: #0000;
+  background-color: #3B3B4F;
+  border-color: #3B3B4F;
 }
 
 .navbar-brand {
@@ -262,7 +262,7 @@ margin-left:40px;
 
 
 body.page .content {
-  background-color:#fff;
+  background-color:#3B3B4F;
   color: #333;
 }
 
