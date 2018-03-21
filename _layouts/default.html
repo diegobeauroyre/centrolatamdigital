@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+<body class="{{ page.class }}">
+
+<div class="wrapper">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="pull-left">
+      <div class="logo">
+
+        <div class="wrapper section2">
+            <img src="{{ site.root_url }}/img/logo_centrolatam.png" alt="Centro LATAM digital" style="max-width: 500px">
+        </div>
+        <br>
+        <a href="{{ site.root_url }}">CENTRO LATAM DIGITAL</a>
+        <br>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+        vehicula facilisis blandit. Morbi gravida nisl sed semper hendrerit.
+        Vestibulum lobortis lectus ac tincidunt dapibus. Nullam vestibulum
+        tellus quam, non lacinia tortor dapibus non. Integer nibh odio, luctus
+        eu arcu at, posuere pellentesque velit. Duis mattis posuere consequat.
+        Suspendisse ac dapibus dolor, faucibus elementum urna. Proin id ultrices
+        odio. Sed enim mauris, consequat pulvinar interdum aliquet, scelerisque
+        non tellus. Fusce porttitor ante tortor, pulvinar consequat lectus
+        consequat sed. Fusce pulvinar aliquet libero, non mattis ante dapibus a.
+        Sed dictum dictum eleifend. Fusce luctus tortor laoreet tempus blandit.
+        Nam elementum massa lectus, ut consectetur ante eleifend non.</p>
+
+
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="navbar-right">
+        <!-- <a class="navbar-brand" href="{{ site.root_url }}{{ page.back_path }}">{{ page.back_label }}--></a>
+    </div>
+
+  </div>
+</div>
+
+  <div class="alert" style="display: none"></div>
+  {{ content }}
+</div>
+
+<div class="wrapper footer">
+
+      {% include footer.html %}
+
+</div>
+
+
+</body>
+</html>
