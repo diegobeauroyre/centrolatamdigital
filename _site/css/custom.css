@@ -1,7 +1,7 @@
 
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 12px;
   line-height: 1.42857143;
   color: #fff;
@@ -16,7 +16,7 @@ body.landing {
     background-color: #3B3B4F;
     max-width: 600px;
     text-align: center;
-    color: #333;
+    color: #fff;
 
 }
 
@@ -25,9 +25,9 @@ body.landing {
     width: 100%;
     text-align:center;
     padding-right: 15px;
-padding-left: 15px;
-margin-right: auto;
-margin-left: auto;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
@@ -264,7 +264,7 @@ margin-left:40px;
 
 body.page .content {
   background-color:#3B3B4F;
-  color: #333;
+  color: #fff;
 }
 
 
