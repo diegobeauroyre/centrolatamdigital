@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Muli', sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #fff;
 }
@@ -17,6 +17,10 @@ body.landing {
     max-width: 600px;
     text-align: center;
     color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
@@ -77,7 +81,7 @@ text-align:left;
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: #fff;
+  color: #0061DB;
   text-decoration: none;
 }
 
@@ -251,12 +255,12 @@ margin-left:40px;
 
 .row {
     margin: 10px;
-    text-align:center;
+    text-align: center;
     font-size: 18x;
 }
 
 .col-md-4 {
-    text-align:center;
+    text-align: center;
 }
 
 /*** Pages & Posts ***/
@@ -272,7 +276,7 @@ body.page .content {
 
 
 body.landing .content {
-  text-align: left;
+  text-align: center;
 
 }
 
@@ -305,8 +309,6 @@ padding-left:20px;
 .form-control {
   height: 40px;
 text-align:left;
-
-
 }
 
 .botonforma {
